@@ -42,7 +42,7 @@
 		label { display: block;}
 		ul {list-style-type: none;}
 		li {display: inline; margin-right: 20px;}
-		body {background-image: url('assets/images/moon.jpg'); background-repeat: no-repeat;}
+		body {background-image: url('assets/images/drama_sky.jpg'); background-repeat: no-repeat;}
 	</style>
 </head>
 <body>
@@ -56,11 +56,15 @@
 			</ul>
 		</nav>
 		<h1>Add a Post</h1>
+		
+		<!-- for displaying errors -->
 		<?php
 			if (isset($errors) && !empty($errors)) {
 				echo "<ul><li>", implode('</li><li>', $errors), "</li></ul>";
 			}
 		?>
+		<!-- end errors -->
+
 		<form action="" method="post">
 			<div>
 				<label for="title">Title</label>

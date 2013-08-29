@@ -13,7 +13,7 @@
 	<style type="text/css">
 		ul {list-style-type: none;}
 		li {display: inline; margin-right: 20px;}
-		body {background-image: url('assets/images/moon.jpg'); background-repeat: no-repeat;}
+		body {background-image: url('assets/images/drama_sky.jpg'); background-repeat: no-repeat;}
 	</style>
 </head>
 <body>

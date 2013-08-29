@@ -12,7 +12,7 @@
 	<style type="text/css">
 		ul {list-style-type: none;}
 		li {display: inline; margin-right: 20px;}
-		body {background-image: url('assets/images/moon.jpg'); background-repeat: no-repeat;}
+		body {background-image: url('assets/images/drama_sky.jpg'); background-repeat: no-repeat;}
 	</style>
 </head>
 <body>
@@ -36,8 +36,8 @@
 		<div> <?= nl2br($post['contents']); ?></div>
 		<menu>
 			<ul>
-				<li><a href="delete_post.php<?= $post['post_id']; ?>">Delete This Post</a></li>
-				<li><a href="edit_post.php<?= $post['post_id']; ?>">Edit This Post</a></li>
+				<li><a href="delete_post.php?id=<?= $post['post_id']; ?>">Delete This Post</a></li>
+				<li><a href="edit_post.php?id=<?= $post['post_id']; ?>">Edit This Post</a></li>
 			</ul>
 		</menu>
 
